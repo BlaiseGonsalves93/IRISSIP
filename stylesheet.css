@@ -1,0 +1,53 @@
+.div_point5 {
+    height: 35px;
+}
+
+.Heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #c9c9c9;
+}
+
+.img1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.paragraphs {
+
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para {
+    margin: 10px;
+}
+
+body {
+    background-color: #DEDBDC;
+    border-left: 0;
+    border-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.honors {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+tr {
+    text-align: left;
+
+}
