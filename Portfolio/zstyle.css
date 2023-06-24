@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF8620;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.navbar img {
+    order: 1;
+    width: 200px;
+}
+
+.navbar a {
+    order: 2;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar a:hover {
+    color: #CD9C8A;
+}
+
+
+.stock-1 {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 500px;
+    float: left;
+
+}
+
+
+.stock-1-heading {
+    float: right;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.stock-1-heading h1 {
+    color: #CD9C8A;
+    padding-top: 90px;
+    font-size: 65px;
+    line-height: 2.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.stock-1-heading p {
+    width: 650px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.stock-1-heading a {
+    margin: 8px;
+    padding: 20px;
+    background-color: #FF8620;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.stock-1-heading a:hover {
+    background-color: black;
+    color: #FF8620;
+}
+
+.container-1 {
+
+    margin-top: 500px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.container-1 div {
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.container-1-h4 {
+    padding-left: 33%;
+    padding-top: 50px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+.container-1-h1 {
+    padding-left: 23%;
+    padding-top: 20px;
+    font-size: 45px;
+    color: whitesmoke;
+    text-decoration: underline #CD9C8A;
+}
+
+.container-1-p {
+    margin: center;
+    position: relative;
+    text-align: center;
+    padding-left: 55px;
+    padding: 10px;
+    color: whitesmoke;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.background-img {
+    width: 100%;
+    height: 85vh;
+}
+
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+
+    height: 350px;
+    width: 400px;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    /* Adjust the width as per your requirements */
+    max-width: 400px;
+    /* Set a maximum width if desired */
+}
+
+.contact-form h2 {
+    padding-left: 55px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.form {
+    width: 300px;
+    align-items: center;
+}
+
+
+
+.formbox {
+    padding: 10px;
+    width: 95%;
+    border: none;
+    outline: none;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.submitbutton {
+    padding: 10px 20px;
+    margin-left: 39%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+
+}
+
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
+}
